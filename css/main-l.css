@@ -1,0 +1,17 @@
+#section-three .card {
+  width: calc(33.33% - 30px);
+  min-width: auto;
+  margin: 0;
+}
+
+#section-one .card {
+  width: calc(33.33% - 20px);
+  min-width: auto;
+  margin: 0;
+}
+
+main section#section-two img {
+  width: calc(33.33% - 20px);
+  min-width: auto;
+  margin: 0;
+}

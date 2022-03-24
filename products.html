@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main-m.css" media="(min-width: 600px)" />
+    <link rel="stylesheet" href="./css/main-l.css" media="(min-width: 900px)" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kolly Store | Products</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/"
+          ><img
+            id="logo"
+            src="./assets/img/demo-11-a-logo.png"
+            alt="Kolly Store"
+            title="Kolly Store"
+        /></a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./products.html">Products</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="products">
+      <section id="section-three">
+        <h1>All Products</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum illum
+          quam expedita assumenda neque consequatur maxime mollitia ea nobis,
+          vero voluptates alias commodi aliquid consequuntur ipsam quas
+          excepturi.
+        </p>
+        <div id="1" class="card">
+          <h2>Nike Women Runner</h2>
+          <img
+            class="product-img"
+            src="./assets/product/shoes-product-09_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">50<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+        <div id="2" class="card">
+          <h2>Nike Element Earth</h2>
+          <img
+            class="product-img"
+            src="./assets/product/shoes-product-11_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">40<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+        <div id="3" class="card">
+          <h2>Nike Predator</h2>
+          <img
+            class="product-img"
+            src="./assets/product/shose-product-04_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">60<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+        <div id="4" class="card">
+          <h2>Nike Evolution</h2>
+          <img
+            class="product-img"
+            src="./assets/product/shose-product-07_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">90<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+        <div id="5" class="card">
+          <h2>Nike Energy</h2>
+          <img
+            class="product-img"
+            src="./assets/product//shose-product-08_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">65<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+        <div id="6" class="card">
+          <h2>Nike Top Action</h2>
+          <img
+            class="product-img"
+            src="./assets/product/shose-product-03_500X540_crop_center.jpg"
+            alt="Category One"
+            title="Category One"
+          />
+          <div>
+            <p class="price-item">80<span> €</span></p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="carrito">
+      <div class="total-acumulado">
+        <h3>Total Carrito:</h3>
+        <span style="font-weight: 600">0 €</span>
+        <button
+          class="btn-comprar-2 disabled"
+          onclick="carritoComprado()"
+          disabled
+        >
+          Comprar
+        </button>
+      </div>
+      <div id="item-placeholder" class="item-carrito-placeholder">
+        <div>
+          <h4 class="title-item-agregado">-</h4>
+          <p>0 €</p>
+        </div>
+        <div>
+          <input class="cant-item" type="number" value="0" />
+          <button type="button" class="btn-delete">X</button>
+        </div>
+      </div>
+    </div>
+    <div id="container-img-pay">
+      <img src="./assets/img/payment.png" alt="Payment" title="Payment" />
+    </div>
+    <footer>
+      <p>
+        by
+        <a href="https://github.com/creativoma" target="_blank">creativoma</a> -
+        <a href="#" target="_blank">Github Repository</a>
+      </p>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
